@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Theme Variables
+   ========================================================================== */
+   :root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --bg-light: #f0f2f5;
+    --bg-white: #ffffff;
+    --text-color: #343a40;
+    --border-color: #dee2e6;
+    /* Use gradients for bubble backgrounds for a fancier look */
+    --agent-bg: linear-gradient(135deg, #e0ffe0, #c9f2c9);
+    --user-bg: linear-gradient(135deg, #e0f0ff, #c9e4ff);
+    --notification-bg: #fffbe6;
+    --notification-border: #ffcc00;
+    --dialogue-bg: #f8f8f8;
+    --transition-speed: 0.3s;
+    --font-family: 'Roboto', sans-serif;
+    --heading-font-family: 'Roboto Slab', serif;
+  }
+  
+  /* ==========================================================================
+     Base Styles & Typography
+     ========================================================================== */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    background-color: var(--bg-light);
+    color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    margin: 1em 0 0.5em;
+    line-height: 1.2;
+  }
+  
+  /* Paragraphs */
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* ==========================================================================
+     Layout Containers
+     ========================================================================== */
+  
+  /* App Container with subtle drop shadow */
+  .app-container {
+    display: flex;
+    padding: 20px;
+    background-color: var(--bg-white);
+    min-height: 100vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+  }
+  
+  /* File List Styling */
+  .file-list {
+    width: 20%;
+    border-right: 1px solid var(--border-color);
+    padding: 20px;
+    background-color: var(--bg-white);
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .file-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .file-list li {
+    cursor: pointer;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .file-list li:hover {
+    background-color: #f0f0f0;
+    transform: translateX(5px);
+  }
+  
+  /* Dialogue Viewer */
+  .dialogue-viewer {
+    width: 80%;
+    padding: 20px;
+    background-color: var(--dialogue-bg);
+    min-height: 100vh;
+    border-radius: 0 10px 10px 0;
+  }
+  
+  /* Chat Container */
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* ==========================================================================
+     Message & Chat Bubble Styling
+     ========================================================================== */
+  
+  /* Message Container */
+  .message {
+    display: flex;
+    align-items: flex-end;
+    max-width: 80%;
+    transition: transform var(--transition-speed);
+  }
+  
+  /* Agent Messages (Left Aligned) */
+  .message.agent {
+    align-self: flex-start;
+  }
+  
+  /* User Messages (Right Aligned) */
+  .message.user {
+    align-self: flex-end;
+    justify-content: flex-end;
+  }
+  
+  /* Avatar */
+  .avatar {
+    margin: 0 10px;
+    font-size: 24px;
+    color: var(--secondary-color);
+  }
+  
+  /* Chat Bubble */
+  .bubble {
+    border-radius: 20px;
+    padding: 12px 18px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: var(--font-family);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: var(--user-bg);
+  }
+  
+  /* Bubble Backgrounds */
+  .message.agent .bubble {
+    background: var(--agent-bg);
+  }
+  
+  .message.user .bubble {
+    background: var(--user-bg);
+  }
+  
+  /* On hover, slightly elevate the bubble */
+  .bubble:hover {
+    transform: translateY(-3px);
+  }
+  
+  /* ==========================================================================
+     Buttons
+     ========================================================================== */
+  
+  /* Toggle Button */
+  .toggle-button {
+    background: transparent;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-size: 0.9em;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    font-family: var(--font-family);
+    transition: color var(--transition-speed);
+  }
+  
+  .toggle-button:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* Global Toggle Button */
+  .global-toggle-button {
+    margin-bottom: 15px;
+    padding: 10px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: var(--bg-white);
+    font-family: var(--font-family);
+    transition: background-color var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .global-toggle-button:hover {
+    background-color: #006ae6;
+    transform: scale(1.05);
+  }
+  
+  /* ==========================================================================
+     Reasoning Details
+     ========================================================================== */
+  
+  /* Details Container with a soft gradient and rounded corners */
+  .details {
+    margin-bottom: 8px;
+    padding: 15px;
+    background: linear-gradient(135deg, #f0f4ff, #e8f0fe);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-family);
+    font-size: 15px;
+  }
+  
+  /* Thought and Action Text */
+  .thought {
+    color: #D35400; /* Darker Dark Orange */
+    margin: 6px 0;
+    padding-left: 15px;
+  }
+  
+  .action {
+    color: #009999;
+    margin: 6px 0;
+    padding-left: 15px;
+  }
+  
+  /* ==========================================================================
+     Utterance Styling
+     ========================================================================== */
+  .utterance {
+    margin: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .utterance-header {
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 17px;
+  }
+  
+  .utterance-list {
+    padding-left: 20px;
+    list-style-type: decimal;
+    margin: 0;
+  }
+  
+  .utterance-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Item Attributes */
+  .item-attributes {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 4px 0 0 0;
+  }
+  
+  .item-attributes li {
+    margin-bottom: 4px;
+  }
+  
+  /* ==========================================================================
+     Notifications
+     ========================================================================== */
+  .notification {
+    display: flex;
+    align-items: center;
+    background-color: var(--notification-bg);
+    border-left: 4px solid var(--notification-border);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    max-width: 80%;
+    align-self: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: var(--font-family);
+    font-size: 15px;
+  }
+  
+  .notification-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    color: #ff9900;
+  }
+  
+  .notification-text {
+    margin: 0;
+    font-size: 15px;
+    color: var(--text-color);
+    font-family: var(--font-family);
+  }
+  
