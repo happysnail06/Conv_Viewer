@@ -10,7 +10,7 @@ const App = () => {
 
     // Fetch file list from static JSON
     useEffect(() => {
-        fetch(process.env.PUBLIC_URL + "/example/file_list.json")
+        fetch(process.env.PUBLIC_URL + "/csi_main/split/file_list.json")
             .then((response) => response.json())
             .then((data) => setFiles(data))
             .catch((error) => console.error("❌ Error fetching file list:", error));
@@ -18,7 +18,7 @@ const App = () => {
 
     // Load selected file content
     const loadFileContent = (fileName) => {
-        fetch(process.env.PUBLIC_URL + `/example/${fileName}`)
+        fetch(process.env.PUBLIC_URL + `/csi_main/split/${fileName}`) // need to modify here
             .then((response) => response.text())
             .then((text) => {
                 setSelectedFile(fileName);

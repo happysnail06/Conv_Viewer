@@ -271,6 +271,45 @@
   .item-attributes li {
     margin-bottom: 4px;
   }
+
+  /* ============================================
+   User Data Card Styles
+   ============================================ */
+.user-data-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-data-card h2 {
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.user-data-card p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+.user-data-card ul {
+  padding-left: 20px;
+  margin: 0;
+  list-style-type: disc;
+}
+
+.user-data-card li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: var(--text-color);
+}
+
   
   /* ==========================================================================
      Notifications

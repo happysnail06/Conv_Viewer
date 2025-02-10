@@ -3,6 +3,58 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { FaUserAlt, FaRobot } from 'react-icons/fa';
 
 //
+// USER DATA CARD COMPONENT
+// Renders a card with the user_data information above the conversation.
+//
+const UserDataCard = ({ userData }) => {
+  if (!userData) return null;
+
+  const {
+    target_needs,
+    budget,
+    purchase_reason,
+    target_category,
+    decision_making_style,
+    general_preference,
+    dialogue_openness
+  } = userData;
+
+  return (
+    <div className="user-data-card" style={{ border: "1px solid #ccc", padding: "1rem", marginBottom: "1rem", borderRadius: "8px" }}>
+      <h2>User Information</h2>
+      {target_needs && <p><strong>Target Needs:</strong> {target_needs}</p>}
+      {budget && (
+        <p>
+          <strong>Budget:</strong> {Array.isArray(budget) ? budget.join(" - ") : budget}
+        </p>
+      )}
+      {purchase_reason && (
+        <>
+          <p><strong>Purchase Reason:</strong></p>
+          {Array.isArray(purchase_reason) ? (
+            <ul>
+              {purchase_reason.map((reason, idx) => (
+                <li key={idx}>{reason}</li>
+              ))}
+            </ul>
+          ) : (
+            <p>{purchase_reason}</p>
+          )}
+        </>
+      )}
+      {target_category && (
+        <p>
+          <strong>Target Category:</strong> {Array.isArray(target_category) ? target_category.join(", ") : target_category}
+        </p>
+      )}
+      {decision_making_style && <p><strong>Decision Making Style:</strong> {decision_making_style}</p>}
+      {general_preference && <p><strong>General Preference:</strong> {general_preference}</p>}
+      {dialogue_openness && <p><strong>Dialogue Openness:</strong> {dialogue_openness}</p>}
+    </div>
+  );
+};
+
+//
 // USER MESSAGE COMPONENT (Seeker)
 // Displays only the content and the user icon.
 //
@@ -20,10 +72,10 @@ const UserMessage = ({ message }) => (
 //
 // AGENT MESSAGE COMPONENT (Recommender)
 // Displays a toggle button to show/hide the reasoning (Thought & Action)
-// above the main content. If the message starts with the header 
-// "Here are some items that you might like:", the remainder is parsed into a bullet list
-// that extracts keys: Product Name, Item ID, Categories, and Description (keeping their values as is).
-// Otherwise, the content is rendered as provided.
+// above the main content.
+// For messages starting with the header "Here are some items that you might like:"
+// the content is parsed using "Item No." as a delimiter and the allowed keys are:
+// "Item Title", "Item ID", "Price", "Category Path", and "Description".
 //
 const AgentMessage = ({ message, globalShowReasoning }) => {
   const [localShowDetails, setLocalShowDetails] = useState(false);
@@ -32,48 +84,32 @@ const AgentMessage = ({ message, globalShowReasoning }) => {
 
   const header = "Here are some items that you might like:";
 
-  // Helper function: Parse item suggestions without stripping bracketed text.
+  // NEW PARSING FUNCTION using "Item No." as a delimiter.
   const parseItemSuggestions = (text) => {
-    // Split based on lookahead for a number followed by a dot (e.g., "1.")
-    const itemStrings = text.split(/(?=\d+\.)/);
-    // We only care about these keys:
-    const allowedKeys = new Set(["Product Name", "Item ID", "Categories", "Description"]);
-    const items = itemStrings.map(itemStr => {
-      itemStr = itemStr.trim();
-      let bullet = "";
-      const bulletMatch = itemStr.match(/^(\d+\.)\s*/);
-      if (bulletMatch) {
-        bullet = bulletMatch[1]; // e.g., "1."
-        itemStr = itemStr.slice(bulletMatch[0].length);
-      }
-      // Split the item text into lines.
-      const lines = itemStr.split('\n').map(line => line.trim()).filter(line => line !== "");
+    // Split text into item blocks based on the "Item No." marker.
+    const itemBlocks = text.split(/Item No\.\d+\s*:/).filter(block => block.trim() !== "");
+
+    // Allowed keys to extract.
+    const allowedKeys = new Set(["Item Title", "Item ID", "Price", "Category Path", "Description"]);
+
+    const items = itemBlocks.map(block => {
+      // Optional normalization: Ensure a delimiter exists between fields if needed.
+      block = block.replace(/(Price:\s*\$\d+\.\d+)\s*(Category Path:)/, "$1 / $2");
+      // Split the block into parts using " / " as a separator.
+      const parts = block.split(" / ").map(part => part.trim()).filter(Boolean);
+
       const attributes = {};
-      // Use a loop so that if a key's value is empty, we can optionally check the next line.
-      for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
-        const colonIndex = line.indexOf(':');
+      parts.forEach(part => {
+        const colonIndex = part.indexOf(":");
         if (colonIndex !== -1) {
-          const key = line.slice(0, colonIndex).trim();
-          let value = line.slice(colonIndex + 1).trim();
-          // If value is empty and the next line exists (and doesn't contain a colon), use that line.
-          if (value === "" && i + 1 < lines.length && lines[i + 1].indexOf(':') === -1) {
-            value = lines[i + 1];
-            i++; // Skip the next line as it's been consumed.
-          }
+          const key = part.slice(0, colonIndex).trim();
+          const value = part.slice(colonIndex + 1).trim();
           if (allowedKeys.has(key)) {
             attributes[key] = value;
           }
-        } else {
-          // If no colon is found, append to Description.
-          if (attributes["Description"]) {
-            attributes["Description"] += " " + line;
-          } else {
-            attributes["Description"] = line;
-          }
         }
-      }
-      return { bullet, attributes };
+      });
+      return attributes;
     });
     return items;
   };
@@ -81,18 +117,19 @@ const AgentMessage = ({ message, globalShowReasoning }) => {
   // Helper function: Render the utterance.
   const renderUtterance = () => {
     if (message.content.startsWith(header)) {
-      // For item suggestions, do not remove bracketed text.
+      // Remove the header and trim the remaining text.
       const itemsPart = message.content.slice(header.length).trim();
       const items = parseItemSuggestions(itemsPart);
+
       return (
         <>
           <p className="utterance-header">{header}</p>
           <ul className="utterance-list">
             {items.map((item, idx) => (
               <li key={idx}>
-                <span className="bullet">{item.bullet} </span>
+                <p><strong>Item {idx + 1}</strong></p>
                 <ul className="item-attributes">
-                  {Object.entries(item.attributes).map(([key, value]) => (
+                  {Object.entries(item).map(([key, value]) => (
                     <li key={key}>
                       <strong>{key}:</strong> {value}
                     </li>
@@ -104,7 +141,7 @@ const AgentMessage = ({ message, globalShowReasoning }) => {
         </>
       );
     } else {
-      // For other content, render as provided (preserving all brackets).
+      // For non-item suggestion content, split by newlines.
       const lines = message.content.split("\n").filter(line => line.trim() !== "");
       return lines.map((line, index) => (
         <p className="utterance" key={index}>{line}</p>
@@ -145,7 +182,7 @@ const AgentMessage = ({ message, globalShowReasoning }) => {
 
 //
 // DIALOGUE VIEWER COMPONENT
-// Expects a JSON object with keys "thoughts", "actions", and "conversation".
+// Expects a JSON object with keys "user_data", "thoughts", "actions", and "conversation".
 // If the incoming data is a string, it is parsed first.
 //
 const DialogueViewer = ({ fileName, data }) => {
@@ -216,6 +253,10 @@ const DialogueViewer = ({ fileName, data }) => {
   return (
     <div className="dialogue-viewer">
       {fileName && <h3>Viewing: {fileName}</h3>}
+      
+      {/* Render the user data card if available */}
+      {parsedData.user_data && <UserDataCard userData={parsedData.user_data} />}
+
       <button
         className="global-toggle-button"
         onClick={() => setGlobalShowReasoning(prev => !prev)}
