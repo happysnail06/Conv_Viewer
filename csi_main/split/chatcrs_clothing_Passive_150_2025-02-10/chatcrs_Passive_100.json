@@ -1,0 +1,50 @@
+{
+    "conversation": [
+        {
+            "role": "user",
+            "content": "I want comfortable, reliable underwear for a good fit and freedom of movement. within my expected price range: [17.0, 19.23]"
+        },
+        {
+            "role": "assistant",
+            "content": "Based on your budget range, I recommend the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) priced at $29.48. This underwear is designed for comfort and breathability, providing a good fit and freedom of movement. If you decide to purchase this item, I also recommend considering the 'potentially purchasable candidate' for a more budget-friendly option."
+        },
+        {
+            "role": "user",
+            "content": "I need [\"Clothing Shoes & Jewelry\", \"Women\", \"Clothing\", \"Lingerie Sleep & Lounge\", \"Lingerie\"] category products."
+        },
+        {
+            "role": "assistant",
+            "content": "Based on your budget range, I recommend the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) priced at $29.48. This underwear is designed for comfort and breathability, providing a good fit and freedom of movement. If you decide to purchase this item, I also recommend considering the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) priced at $29.48 for a more budget-friendly option."
+        },
+        {
+            "role": "user",
+            "content": "I would like more information about the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) priced at $29.48 is designed for comfort and breathability, providing a good fit and freedom of movement. If you decide to purchase this item, I also recommend considering the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F) priced at $29.48 for a more budget-friendly option."
+        },
+        {
+            "role": "user",
+            "content": "I would like to purchase the 'Fruit of the Loom Women's Breathable Underwear' (B0C547R51F). ##STOP##"
+        }
+    ],
+    "result": [
+        1,
+        0
+    ],
+    "sr": 1,
+    "at": 3,
+    "swr": 0,
+    "user_data": "AHZ72SSRZUSFA6ZAZ6SB5S3UZQTA",
+    "recommended": [
+        "B0C547R51F",
+        "B0C547R51F",
+        "B0C547R51F"
+    ],
+    "candidates": [
+        "B0C547R51F",
+        "B0C547R51F"
+    ],
+    "selected_final": "B0C547R51F"
+}

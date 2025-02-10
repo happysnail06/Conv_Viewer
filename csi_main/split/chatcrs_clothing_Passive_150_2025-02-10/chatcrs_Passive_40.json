@@ -1,0 +1,60 @@
+{
+    "conversation": [
+        {
+            "role": "user",
+            "content": "I want comfortable, functional clothing for an active lifestyle with a stylish look. within my expected price range: [28.35, 29.21]"
+        },
+        {
+            "role": "assistant",
+            "content": "Based on your budget range, I recommend the 'Champion Men's Joggers' (B08ZJWTCDR) priced at $21.0. These joggers offer the comfort and style you're looking for. Additionally, I have another option available that might interest you: 'Everyday Cotton Joggers' (potentially purchasable candidate). Would you like to consider this option instead?"
+        },
+        {
+            "role": "user",
+            "content": "I would like to know more about the 'Everyday Cotton Joggers' before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The 'Champion Men's Joggers' (B08ZJWTCDR) are priced at $21.0 and offer the comfort and style you're looking for. If you decide to purchase these joggers, I recommend considering the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL) priced at $30.0. They are made with extra stitch details for a thick, reliable fit and are exceptionally soft and sturdy, perfect for an active lifestyle."
+        },
+        {
+            "role": "user",
+            "content": "I would like to know more about the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL) before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The 'Champion Men's Joggers' (B08ZJWTCDR) are priced at $21.0 and offer the comfort and style you're looking for. If you decide to purchase these joggers, I recommend considering the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL) priced at $30.0. They are made with extra stitch details for a thick, reliable fit and are exceptionally soft and sturdy, perfect for an active lifestyle."
+        },
+        {
+            "role": "user",
+            "content": "I would like to know more about the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL) before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The 'Champion Men's Joggers' (B08ZJWTCDR) are priced at $21.0 and offer the comfort and style you're looking for. If you decide to purchase these joggers, I recommend considering the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL) priced at $30.0. They are made with extra stitch details for a thick, reliable fit and are exceptionally soft and sturdy, perfect for an active lifestyle."
+        },
+        {
+            "role": "user",
+            "content": "I would like to purchase the 'Champion, Powerblend, Fleece Joggers' (B0BZMZ7VBL). ##STOP##"
+        }
+    ],
+    "result": [
+        1,
+        1
+    ],
+    "sr": 1,
+    "at": 4,
+    "swr": 1,
+    "user_data": "AHFIUQNGRQRQZSVOLILDZD3CPHRQ",
+    "recommended": [
+        "B08ZJWTCDR",
+        "B08ZJWTCDR",
+        "B08ZJWTCDR",
+        "B08ZJWTCDR"
+    ],
+    "candidates": [
+        "B0BZMZ7VBL",
+        "B0BZMZ7VBL",
+        "B0BZMZ7VBL"
+    ],
+    "selected_final": "B0BZMZ7VBL"
+}
