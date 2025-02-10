@@ -1,0 +1,306 @@
+{
+    "user_data": {
+        "target_needs": "I wanted to fulfill the need for comfortable, stylish, and durable everyday clothing that fits well and meets my lifestyle requirements.",
+        "budget": [
+            33.3,
+            40.8
+        ],
+        "purchase_reason": [
+            "I was looking for a comfortable and affordable piece of clothing that would fit well and be durable for everyday use. The emphasis on quality and consistent sizing in the product description reassured me that I would not have to worry about fit or longevity. The positive review from another customer about the softness and fit further influenced my decision, making me feel confident in my choice.",
+            "I wanted a stylish yet comfortable sweatshirt that would be suitable for casual wear. The collaboration with Disney added a fun element that appealed to me, and the description highlighted features like warmth and fit, which were important for my needs. The review confirmed that it washes well and fits perfectly, which reinforced my decision to purchase."
+        ],
+        "target_category": [
+            "Clothing Shoes & Jewelry",
+            "Men",
+            "Clothing",
+            "Fashion Hoodies & Sweatshirts"
+        ],
+        "decision_making_style": "Rational",
+        "general_preference": "I generally prefer products that offer comfort, good fit, and high quality. I value items that are versatile and functional, such as swim shirts that are quick-drying and provide sun protection, as well as jackets that are warm and made from soft materials. I appreciate clothing that fits well and maintains its shape and color over time. Additionally, I enjoy products that are easy to care for and look good after washing. On the other hand, I tend to dislike items that do not fit as expected, especially if they are designed for a different body type, or those that lack comfort and support. I also find poor quality or items that do not provide good value for money unappealing.",
+        "dialogue_openness": "Less Active"
+    },
+    "conversation": [
+        {
+            "role": "user",
+            "content": "I want comfortable, stylish, and durable everyday clothing that fits well and suits my lifestyle. within my expected price range: [33.3, 40.8]"
+        },
+        {
+            "role": "assistant",
+            "content": "What specific colors or color palettes do you prefer for your everyday clothing?"
+        },
+        {
+            "role": "user",
+            "content": "I prefer neutral colors like black, navy, gray, or earth tones for my everyday clothing. These colors are versatile and easy to mix and match with other pieces in my wardrobe. What do you recommend in these color palettes?"
+        },
+        {
+            "role": "assistant",
+            "content": "Here are some items that you might like: \nItem No.1 : Item Title: <Comfort Colors Adult Short Sleeve Tee, Style 1717> / Item ID: B0BYFWLJXV / Price: $9.81 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Clothing', 'Shirts', 'T-Shirts'] / Description: [\"Wish every day could feel like a laid-back Saturday morning? Just pull on the Comfort Colors 1717 adult tee. The hearty jersey fabric is knitted of the softest 100% cotton that's ring spun, then garment washed to achieve the comfort of a tee that's been washed 50 times. Plus, you can choose from a rich color palette that's as varied as nature itself. So your tee can match your mood, your message and your lifestyle.\"] \nItem No.2 : Item Title: <Goodthreads Women's Brushed Flannel Relaxed-Fit Belted Shirt Dress> / Item ID: B07PDPHTN1 / Price: $31.92 Category Path: ['Clothing Shoes & Jewelry', 'Women', 'Clothing', 'Dresses', 'Casual'] / Description: [\"Goodthreads' collection of men's clothing crafted with care takes wear-everywhere apparel to the next level. Create can't-miss pairings with long- and short-sleeve button-down shirts in standard and slim fits, plus chino pants and shorts made from wrinkle-free non-iron fabric. With these classics-and T-shirts, polo shirts, and outerwear to round out your look-Goodthreads is your go-to for wardrobe staples with the style you want.\", 'Goodthreads is on a mission to create incredible clothes at affordable prices. Our womenswear delivers the perfect balance of feminine and tomboy style, rooted in denim and everything you wear with it - washed shirting, cozy sweaters, and perfectly broken-in t-shirts.'] \nItem No.3 : Item Title: <Comfort Colors Men's Adult Short Sleeve Tee, Style 1717> / Item ID: B0BXKPL85X / Price: $10.95 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Clothing', 'Shirts', 'T-Shirts'] / Description: [\"Wish every day could feel like a laid-back Saturday morning? Just pull on the Comfort Colors 1717 adult tee. The hearty jersey fabric is knitted of the softest 100% cotton that's ring spun, then garment washed to achieve the comfort of a tee that's been washed 50 times. Plus, you can choose from a rich color palette that's as varied as nature itself. So your tee can match your mood, your message and your lifestyle.\"] \n"
+        },
+        {
+            "role": "user",
+            "content": "I need [\"Clothing Shoes & Jewelry\", \"Men\", \"Clothing\", \"Shirts\"] category products."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are some items that you might like: \nItem No.1 : Item Title: <Comfort Colors Adult Short Sleeve Tee, Style 1717> / Item ID: B0BYFWLJXV / Price: $9.81 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Clothing', 'Shirts', 'T-Shirts'] / Description: [\"Wish every day could feel like a laid-back Saturday morning? Just pull on the Comfort Colors 1717 adult tee. The hearty jersey fabric is knitted of the softest 100% cotton that's ring spun, then garment washed to achieve the comfort of a tee that's been washed 50 times. Plus, you can choose from a rich color palette that's as varied as nature itself. So your tee can match your mood, your message and your lifestyle.\"] \nItem No.2 : Item Title: <Comfort Colors Men's Adult Short Sleeve Tee, Style 1717> / Item ID: B0BXKPL85X / Price: $10.95 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Clothing', 'Shirts', 'T-Shirts'] / Description: [\"Wish every day could feel like a laid-back Saturday morning? Just pull on the Comfort Colors 1717 adult tee. The hearty jersey fabric is knitted of the softest 100% cotton that's ring spun, then garment washed to achieve the comfort of a tee that's been washed 50 times. Plus, you can choose from a rich color palette that's as varied as nature itself. So your tee can match your mood, your message and your lifestyle.\"] \nItem No.3 : Item Title: <LA LEELA Men's Casual Button Down Short Sleeve Dress Work Shirt Oxford Solid Shirts for Men> / Item ID: B09MWCMMN5 / Price: $28.99 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Clothing', 'Shirts', 'Casual Button-Down Shirts'] / Description: ['Sometimes you want style, other times you want comfort, LA LEELA prides itself in offering bothYou will never be out of style with our men\\'s exclusive collection, hawaiian shirts for mens, digital 3D allover aloha prints, vibrant tropical flowers and palms OrReturn to a profession/ routine life by having our plain, casual, leisurely apparelsOur shirts runs a bit large, each of our products is attached with a size chart, so please select your appropriate size or you can also check here and select your fitSize: X-Small | Chest Size: 38\"- 40\"| Length: 27\"Size: Small | Chest Size: 41\"- 42\" | Length: 28\"Size: Medium | Chest Size: 43\"- 44\" | Length: 29\"Size: Large | Chest Size: 46\"- 49\" | Length: 30\"Size: X-Large | Chest Size: 50\"- 52\" | Length: 31\"Size: 2X-Large | Chest Size: 57\"- 59\" | Length: 31\"Size: 3X-Large | Chest Size: 61\"- 64\" | Length: 33\"Size: 4X-Large | Chest Size: 64\"- 66\" | Length: 37\"Size: 5X-Large | Chest Size: 66\"- 67\" | Length: 38\"Size: 6X-Large | Chest Size: 67\"- 68\" | Length: 39\"Size: 7X-Large | Chest Size: 69\"- 71\" | Length: 40\"Our trendy printed holiday shirts finished to perfection with front buttons closure, flattering fit to die for, spread collared, comfy short sleeves, perfect neckline, a single chest pocketEnjoy the joyful holiday breaks, with well made, incredibly comfortable, fashion-forward, worth every pennyEach and every products are made with high-quality fabric, Fabric itself is breathable, lightweight, easy to carry, skin friendly, quick-dryStand out by pairing with basic t-shirts, great with shorts or dress slacks can be both business and casual, It is suitable for a variety of occasionsNote:- Please note that due to the different brightness, contrast and color settings of your monitor the color maybe slight different from the original pictures'] \n"
+        },
+        {
+            "role": "user",
+            "content": "Can you provide more information about the sizing and fit of the <LA LEELA Men's Casual Button Down Short Sleeve Dress Work Shirt Oxford Solid Shirts for Men> (B09MWCMMN5)? I want to ensure that it will fit well and be comfortable for everyday wear before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "Based on your interest in sizing and fit, the <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) could be a perfect choice for you. This shirt is designed with a custom fit, slightly slimmer in the chest and shoulder with a slightly shorter length, making it easy to go untucked while ensuring a comfortable and stylish fit. The 100% cotton material is naturally breathable and comfortable, meeting your preference for everyday clothing that fits well and is durable. Additionally, the classic design, button-down collar, and embroidered logo flag add a timeless touch to your wardrobe. At a price of $52.99, investing in this high-quality shirt will provide you with a versatile and long-lasting piece for your everyday wear."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate the recommendation for the <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW). The description of the custom fit, with a slightly slimmer chest and shoulder, sounds like it would offer the comfort and good fit I look for in everyday clothing. The 100% cotton material is a plus for breathability and comfort, which aligns well with my preference for durable and comfortable pieces. The classic design and embroidered logo flag add a stylish touch that I would enjoy in my wardrobe. Before making a decision, could you provide more details about the available color options for this shirt?"
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) aligns perfectly with your preference for comfortable, stylish, and durable everyday clothing. The custom fit design ensures a great fit with a slightly slimmer chest and shoulder, meeting your need for clothing that fits well. The 100% cotton material offers breathability and comfort, ideal for your everyday wear. Additionally, the classic design and embroidered logo flag add a stylish touch to your wardrobe. At a price of $52.99, investing in this high-quality shirt will provide you with a versatile and long-lasting piece for your everyday outfits."
+        },
+        {
+            "role": "user",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) seems like a great choice for my everyday clothing needs. The custom fit design with a slightly slimmer chest and shoulder sounds like it would offer the comfort and good fit I value. The 100% cotton material for breathability and comfort aligns well with my preference for durable and comfortable pieces. The classic design and embroidered logo flag add a stylish touch that I would appreciate in my wardrobe. Before I make a decision, could you please provide more details about the available color options for this shirt?"
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) aligns perfectly with your preference for comfortable, stylish, and durable everyday clothing. The custom fit design ensures a great fit with a slightly slimmer chest and shoulder, meeting your need for clothing that fits well. The 100% cotton material offers breathability and comfort, ideal for your everyday wear. Additionally, the classic design and embroidered logo flag add a stylish touch to your wardrobe. At a price of $52.99, investing in this high-quality shirt will provide you with a versatile and long-lasting piece for your everyday outfits."
+        },
+        {
+            "role": "user",
+            "content": "Can you provide more details about the available color options for the <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW)? I want to ensure that the color options align with my preference for neutral tones like black, navy, gray, or earth tones. This information will help me evaluate if this shirt meets my criteria for versatile and stylish everyday clothing before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) offers a unique advantage over the <LA LEELA Men's Casual Button Down Short Sleeve Dress Work Shirt Oxford Solid Shirts for Men> (B09MWCMMN5) with its custom fit design. This shirt is tailored with a slightly slimmer chest and shoulder, ensuring a more modern and stylish silhouette. The 100% cotton material provides exceptional comfort and breathability, making it perfect for your everyday wear. Investing $52.99 in this high-quality shirt will not only give you a durable and versatile piece but also elevate your wardrobe with timeless style."
+        },
+        {
+            "role": "user",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) seems like a great choice for my everyday clothing needs. The custom fit design with a slightly slimmer chest and shoulder sounds like it would offer the comfort and good fit I value. The 100% cotton material for breathability and comfort aligns well with my preference for durable and comfortable pieces. The classic design and embroidered logo flag add a stylish touch that I would appreciate in my wardrobe. Before I make a decision, could you please provide more details about the available color options for this shirt?"
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) offers a unique advantage over the <LA LEELA Men's Casual Button Down Short Sleeve Dress Work Shirt Oxford Solid Shirts for Men> (B09MWCMMN5) with its custom fit design. This shirt is tailored with a slightly slimmer chest and shoulder, ensuring a more modern and stylish silhouette. The 100% cotton material provides exceptional comfort and breathability, making it perfect for your everyday wear. Investing $52.99 in this high-quality shirt will not only give you a durable and versatile piece but also elevate your wardrobe with timeless style."
+        },
+        {
+            "role": "user",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) seems like a great choice for my everyday clothing needs. The custom fit design with a slightly slimmer chest and shoulder sounds like it would offer the comfort and good fit I value. The 100% cotton material for breathability and comfort aligns well with my preference for durable and comfortable pieces. The classic design and embroidered logo flag add a stylish touch that I would appreciate in my wardrobe. Before I make a decision, could you please provide more details about the available color options for this shirt?"
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) perfectly aligns with your preference for comfortable, stylish, and durable everyday clothing. The custom fit design ensures a great fit with a slightly slimmer chest and shoulder, meeting your need for clothing that fits well. The 100% cotton material offers breathability and comfort, ideal for your everyday wear. Additionally, the classic design and embroidered logo flag add a stylish touch to your wardrobe. Investing $52.99 in this high-quality shirt will provide you with a versatile and long-lasting piece for your everyday outfits."
+        },
+        {
+            "role": "user",
+            "content": "Can you please provide more details about the available color options for the <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW)? I want to ensure that the colors align with my preference for neutral tones like black, navy, gray, or earth tones. This information will help me evaluate if this shirt meets my criteria for versatile and stylish everyday clothing before making a decision."
+        },
+        {
+            "role": "assistant",
+            "content": "The <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW) offers a unique advantage over the <LA LEELA Men's Casual Button Down Short Sleeve Dress Work Shirt Oxford Solid Shirts for Men> (B09MWCMMN5) with its custom fit design. This shirt is tailored with a slightly slimmer chest and shoulder, ensuring a more modern and stylish silhouette. The 100% cotton material provides exceptional comfort and breathability, making it perfect for your everyday wear. Investing $52.99 in this high-quality shirt will not only give you a durable and versatile piece but also elevate your wardrobe with timeless style."
+        },
+        {
+            "role": "user",
+            "content": "Can you please provide more details about the available color options for the <Tommy Hilfiger Men's Short Sleeve Casual Button Down Shirt in Custom Fit> (B0C5XCVFHW)? I want to ensure that the colors align with my preference for neutral tones like black, navy, gray, or earth tones. This information will help me evaluate if this shirt meets my criteria for versatile and stylish everyday clothing before making a decision."
+        }
+    ],
+    "sr": 0,
+    "at": 0,
+    "swr": 0,
+    "selected": [
+        "B09MWCMMN5",
+        "B09MWCMMN5",
+        "B09MWCMMN5",
+        "B09MWCMMN5",
+        "B09MWCMMN5",
+        "B09MWCMMN5",
+        "B09MWCMMN5"
+    ],
+    "candidates": [
+        "B0C5XCVFHW"
+    ],
+    "result": [
+        -1,
+        -1
+    ],
+    "thoughts": [
+        "The Seeker has provided detailed requirements for comfortable, stylish, and durable everyday clothing within a specific price range. It would be beneficial to probe further into their style preferences to offer more tailored recommendations.",
+        "The Seeker has specified a preference for neutral colors like black, navy, gray, or earth tones for their everyday clothing. It's important to focus on suggesting items that fit this color palette while also meeting their criteria of comfort, style, durability, and fit.",
+        "The Seeker has expressed a preference for specific category products within the 'Men', 'Clothing', 'Shirts' category. It seems important to continue focusing on finding suitable items in this category.",
+        "The Seeker has expressed interest in the sizing and fit of the product, indicating a focus on comfort and practicality. It would be beneficial to provide detailed information on sizing to ensure the Seeker's requirements are met.",
+        "The Seeker has shown interest in the sizing and fit of clothing items, indicating a focus on comfort and practicality. It would be beneficial to provide more details on color options for the recommended shirt to ensure it aligns with their preference for neutral colors.",
+        "The Seeker has shown interest in the sizing and fit of clothing items, indicating a focus on comfort and practicality. They also value the details of the material and design features. It would be beneficial to provide more options that align with their preference for neutral colors and everyday wear.",
+        "The Seeker has expressed a clear preference for neutral colors like black, navy, gray, or earth tones. To align with this preference, the next step should focus on providing color options for the selected item that match these preferences.",
+        "The Seeker has shown a strong interest in finding comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. They have a preference for neutral colors like black, navy, gray, or earth tones. The Seeker has also expressed a focus on details and ensuring that the clothing they choose meets their criteria for everyday wear.",
+        "The Seeker has shown a strong interest in finding comfortable, stylish, and durable everyday clothing that fits well and aligns with their preference for neutral colors like black, navy, gray, or earth tones. The Seeker also values detailed information about sizing, fit, material, and color options before making a decision. To cater to their detailed-oriented nature, it would be beneficial to provide more information on color options for the selected item.",
+        "The Seeker has shown a strong interest in finding comfortable, stylish, and durable everyday clothing in neutral colors like black, navy, gray, or earth tones. They have been detailed in their feedback and seem engaged in the search process. Given their focus on color preferences and fit, it would be beneficial to continue providing options that align with these criteria."
+    ],
+    "profile update": [
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        },
+        {
+            "Preference": "Likes comfortable, stylish, and durable everyday clothing that fits well and suits their lifestyle. Prefers neutral colors like black, navy, gray, or earth tones.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Clothing",
+                "Shirts"
+            ],
+            "Personality": "Engaged and detail-oriented",
+            "Expected Price Range": [
+                33.3,
+                40.8
+            ],
+            "Selected Item ID": "B09MWCMMN5"
+        }
+    ],
+    "actions": [
+        "Preference Probing",
+        "Suggestion",
+        "Suggestion",
+        "Persuasion",
+        "Persuasion",
+        "Persuasion",
+        "Persuasion",
+        "Persuasion",
+        "Persuasion",
+        "Persuasion"
+    ],
+    "persuasion strategies": [
+        "Logical Appeal",
+        "Logical Appeal",
+        "Logical Appeal",
+        "Framing",
+        "Framing",
+        "Logical Appeal",
+        "Framing"
+    ]
+}

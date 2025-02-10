@@ -1,0 +1,290 @@
+{
+    "user_data": {
+        "target_needs": "I wanted to fulfill the need for comfortable and stylish footwear that could be worn casually, while also considering my son's preferences for his footwear.",
+        "budget": [
+            24.28,
+            28.82
+        ],
+        "purchase_reason": [
+            "I was looking for a comfortable and stylish option for casual wear. The product's emphasis on comfort, with features like a soft moulded footbed and durable strap, appealed to my need for both functionality and aesthetics. The positive rating and the mention of its sporty style influenced my decision, as I wanted something that would look good while being easy to wear.",
+            "I purchased these for my son, who expressed a strong preference for them. His enjoyment and satisfaction with the product were the main factors in my decision. The high rating and the positive review reinforced my choice, as I wanted to ensure I was buying something he would love."
+        ],
+        "target_category": [
+            "Clothing Shoes & Jewelry",
+            "Men",
+            "Shoes",
+            "Athletic",
+            "Sport Sandals & Slides"
+        ],
+        "decision_making_style": "Rational",
+        "general_preference": "I generally prefer products that offer comfort, style, and a good fit. I value high-quality materials that provide a soft and cozy feel, especially in clothing and footwear. I tend to enjoy items that are versatile and can be worn for various occasions, such as casual outings or lounging at home. Additionally, I appreciate products that are easy to care for and maintain their quality over time. On the other hand, I dislike items that compromise comfort for style, such as bras that create an unflattering silhouette or clothing that feels restrictive. I also tend to avoid products that do not fit well or are poorly constructed, as these can lead to dissatisfaction and discomfort.",
+        "dialogue_openness": "Passive"
+    },
+    "conversation": [
+        {
+            "role": "user",
+            "content": "I want comfortable and stylish footwear for casual wear, considering my son's preferences too. within my expected price range: [24.28, 28.82]"
+        },
+        {
+            "role": "assistant",
+            "content": "What specific features or styles does your son prefer in footwear for casual wear?"
+        },
+        {
+            "role": "user",
+            "content": "I prefer footwear that offers comfort, style, and a good fit for casual wear. My son tends to like sporty and versatile styles that he can easily wear for various occasions."
+        },
+        {
+            "role": "assistant",
+            "content": "What color preferences do you and your son have for the footwear?"
+        },
+        {
+            "role": "user",
+            "content": "I prefer neutral colors like black, grey, or navy for footwear. My son likes bold colors like red, blue, or green."
+        },
+        {
+            "role": "assistant",
+            "content": "What material do you prefer for the footwear?"
+        },
+        {
+            "role": "user",
+            "content": "I prefer footwear made of high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability."
+        },
+        {
+            "role": "assistant",
+            "content": "What shoe size are you looking for, and do you have any specific fit requirements, such as wide or narrow options?"
+        },
+        {
+            "role": "user",
+            "content": "I prefer footwear that fits true to size and offers a regular fit for both myself and my son."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are some items that you might like: \nItem No.1 : Item Title: <EIGHT KM Toddler Boys/Girls Shoes Lightweight Sneakers> / Item ID: B082FHYHRB / Price: $21.99 Category Path: ['Clothing Shoes & Jewelry', 'Girls', 'Shoes', 'Sneakers'] / Description: [\"These boys and girls Sneakers EKM7021 are made of breathable cotton jersey and fly knitting that lessen foot sweating and odor. The soft stable EVA insole adds comfort and is less prone to blisters and irritation. These Sneakers EKM7021 have lightweight EVA and anti-skidding outsole that make our kids' steps lighter, safer, and more fun. With our mission to let our kids shine among the others, we created our designs that will embody and execute our hope that every step our kids make is worthy and special.\"] \nItem No.2 : Item Title: <Dearfoams Women's Original Comfort Sport Everly Mule with Faux Fur Cuff> / Item ID: B09BKH7XDV / Price: $25.79 Category Path: ['Clothing Shoes & Jewelry', 'Women', 'Shoes', 'Mules & Clogs'] / Description: ['Picture this: you’re out with the girls for lunch, you stop by the farmer’s market, you hike along the bike trail, and your feet still feel great. How? That’s where Dearfoams Original Comfort comes in: our line of innovative daily-wear shoes! With all the support of a shoe alongside cloud-like coziness that makes every step feel like a spa day, they’re an absolute must for tackling your to-do list. Driven by innovation from our female-led, female-founded teams, you can trust that our shoes are made with the same quality and care as our classic slippers. As comfy as our women’s slippers, our women’s footwear is sure to be a treat for your feet. Whether you’re in the mood for ballet flats, slip-on sneakers, clog sneakers, or platform sneakers, we’ve got you covered with our cozy shoes! These shock-absorbing shoes offer plenty of arch support for those extra-busy days, and our machine-washable shoes are simple to keep fresh. And with easy on/off designs, these women’s shoes are the perfect pick to leave by the door. Need a refresh after a long day? Our shoes are machine washable! Just toss them in, set up a gentle, cold cycle, and air dry. It’s as simple as that.'] \nItem No.3 : Item Title: <OrthoStep Thick Round Athletic Shoelaces - Shoe and Hiking Boot Laces - 2 Pair Pack - Made in the USA> / Item ID: B07JMF52Q1 / Price: $10.98 Category Path: ['Clothing Shoes & Jewelry', 'Shoe Jewelry & Watch Accessories', 'Shoe Care & Accessories', 'Shoelaces'] / Description: ['OrthoStep offers this 2 pair pack (4 laces) thick round hiking boot and athletic shoelaces. These thick and rounded laces are designed to give your shoes the perfect fit for when you hike, bike, walk, run, and more.ROUNDED LACES:Round laces give your hiking boots or shoes a bold look. Easily secure your shoelaces for a tight fitting solution for any active or outdoor loving lifestyle. Durable round laces are reliable and comfortable and allow you to tie your shoes TIGHT, using the thick, rounded design.THICK AND HEAVY DUTY: Our laces are thick bulky and sturdy and are crafted with an extra durable strong braided construction that helps them stand up to the wear and tear of hiking, or sports. Perfect for kids, mens, and womens shoes of all kinds such as hiking boots, work boots, sneakers, or tennis shoes. QUALITY CONSTRUCTION:Quality, made-in-the-USA products that customers love is our top priority. Every OrthoStep shoelace is woven, cut, and tipped right here in the USA to ensure quality construction and responsible sourcing. For a brand you can trust, choose OrthoStep laces.- 2 Pair Pack (4 Laces) Thick Rounded Hiking Or Walking Shoelaces- 16 different Lengths: 24\", 27\", 30\", 32\", 34\", 36\", 40\", 42\", 45\", 48\", 50\", 52\", 54\", 60\", 63\", 72\" - Made in the USA'] \n"
+        },
+        {
+            "role": "user",
+            "content": "I need [\"Clothing Shoes & Jewelry\", \"Men\", \"Shoes\", \"Athletic\"] category products."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are some items that you might like: \nItem No.1 : Item Title: <Teva Men's Mush II Flip-Flop> / Item ID: B0055ATVUU / Price: $23.56 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Sport Sandals & Slides'] / Description: [\"Teva was born in the grand canyon back in 1984, when a river guide rigged two velcro watchbands to an old pari of flip flops and created a shoe that wouldn't float away. Three decades later, we've grown up into an icon of comfort and utilitarian style\", 'Teva is an authentic icon in the outdoor industry. Founded in the early 1980\\'s by a Colorado River guide, Teva pioneered the sport-sandal category. For more than 20 years on rivers, in canyons, and across the trails of the great outdoors, athletes and enthusiasts have traveled the globe comfortably and confidently in Teva footwear. Providing positive contributions to the world in which we play is at the core of everything Teva stands for. The Teva name itself is a Hebrew word meaning \"nature\" and the hand logo is the Hopi symbol for \"friendship\" and \"water.\" Teva supports the outdoor athletic lifestyle and remains committed to innovation in outdoor performance footwear, the platforms which carry enthusiasts beyond the offices of the day-to-day and onto the rivers, trails, and canyons of the next adventure.'] \nItem No.2 : Item Title: <Alpine Swiss Bolt Mens Mesh Sneakers Lightweight Casual Lace Up Tennis Shoes> / Item ID: B0B3SPTV6C / Price: $19.99 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Walking'] / Description: [\"Men's Bolt Fashion Sneakers By Alpine Swiss MEN'S SIZES ARE SHOWN ON THIS PAGE. IF YOU ARE TRYING TO ORDER IN WOMEN'S SIZES PLEASE SEE THE CONVERSION CHART IN IMAGES SECTION AND ORDER THE CORRESPONDING MEN'S SIZE.\\xa0 Alpine Swiss logo on back pull on tab, accent trim along toe, shoe lace eyelets, and back heel counter. Product Features: MENS SIZING IS SHOWN Breathable Mesh Fabric Upper Flexible Rubber Sole Adjustable Lace up closure Lightly padded footbed for comfort Available in a variety of colors MSRP $75.00\"] \nItem No.3 : Item Title: <PUMA Unisex-Adult Cool Cat Slide Sandal> / Item ID: B08KLBXTPG / Price: $24.28 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Sport Sandals & Slides'] / Description: ['PRODUCT STORY', 'Casual and comfortable, featuring a durable, boldly branded strap and premium cushioning, the Cool Cat is a slide for those who don’t want to compromise comfort for slick, sporty style.', 'DETAILS', 'Durable synthetic leather upper', 'Durable synthetic leather upper', 'Soft moulded footbed', 'Soft moulded footbed', 'EVA outsole', 'EVA outsole', 'PUMA No. 1 Logo at strap', 'PUMA No. 1 Logo at strap'] \n"
+        },
+        {
+            "role": "user",
+            "content": "What specific features or styles does your son prefer in footwear for casual wear?"
+        },
+        {
+            "role": "assistant",
+            "content": "\"What do you prefer in terms of closure for the footwear, such as lace-up, slip-on, or velcro straps, to ensure it meets your comfort and style requirements?\""
+        },
+        {
+            "role": "user",
+            "content": "I prefer slip-on or velcro strap closures for the footwear to meet my comfort and style requirements."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are some items that you might like: \nItem No.1 : Item Title: <Teva Men's Mush II Flip-Flop> / Item ID: B0055ATVUU / Price: $23.56 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Sport Sandals & Slides'] / Description: [\"Teva was born in the grand canyon back in 1984, when a river guide rigged two velcro watchbands to an old pari of flip flops and created a shoe that wouldn't float away. Three decades later, we've grown up into an icon of comfort and utilitarian style\", 'Teva is an authentic icon in the outdoor industry. Founded in the early 1980\\'s by a Colorado River guide, Teva pioneered the sport-sandal category. For more than 20 years on rivers, in canyons, and across the trails of the great outdoors, athletes and enthusiasts have traveled the globe comfortably and confidently in Teva footwear. Providing positive contributions to the world in which we play is at the core of everything Teva stands for. The Teva name itself is a Hebrew word meaning \"nature\" and the hand logo is the Hopi symbol for \"friendship\" and \"water.\" Teva supports the outdoor athletic lifestyle and remains committed to innovation in outdoor performance footwear, the platforms which carry enthusiasts beyond the offices of the day-to-day and onto the rivers, trails, and canyons of the next adventure.'] \nItem No.2 : Item Title: <Alpine Swiss Bolt Mens Mesh Sneakers Lightweight Casual Lace Up Tennis Shoes> / Item ID: B0B3SPTV6C / Price: $19.99 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Walking'] / Description: [\"Men's Bolt Fashion Sneakers By Alpine Swiss MEN'S SIZES ARE SHOWN ON THIS PAGE. IF YOU ARE TRYING TO ORDER IN WOMEN'S SIZES PLEASE SEE THE CONVERSION CHART IN IMAGES SECTION AND ORDER THE CORRESPONDING MEN'S SIZE.\\xa0 Alpine Swiss logo on back pull on tab, accent trim along toe, shoe lace eyelets, and back heel counter. Product Features: MENS SIZING IS SHOWN Breathable Mesh Fabric Upper Flexible Rubber Sole Adjustable Lace up closure Lightly padded footbed for comfort Available in a variety of colors MSRP $75.00\"] \nItem No.3 : Item Title: <Gear One Men's Rubber Slide Sandal Slipper Comfortable Shower Beach Shoe Slip On Flip Flop> / Item ID: B01AEUXKUC / Price: $9.99 Category Path: ['Clothing Shoes & Jewelry', 'Men', 'Shoes', 'Athletic', 'Sport Sandals & Slides'] / Description: [\"Men's Rubber Sandal Slipper Comfortable Shower Beach Shoe Slip On Flip Flop\"] \n"
+        },
+        {
+            "role": "user",
+            "content": "I prefer slip-on or velcro strap closures for the footwear to meet my comfort and style requirements. Can you provide more details about the <Teva Men's Mush II Flip-Flop> (B0055ATVUU)?"
+        },
+        {
+            "role": "assistant",
+            "content": "The <Teva Men's Katavi 2> (B002KKCZLA) offers a step up in style and durability compared to the <Teva Men's Mush II Flip-Flop> (B0055ATVUU). With its leather and textile construction, contoured EVA footbed for arch support, and rugged Durabrasion Rubber outsole for traction, the Katavi 2 provides a more versatile and long-lasting option for your son's casual wear. While the Mush II Flip-Flop is excellent for all-day comfort, the Katavi 2 elevates style and durability, making it a worthwhile investment for your son's footwear collection."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate the details about the <Teva Men's Katavi 2> (B002KKCZLA). It sounds like a step up in style and durability compared to the <Teva Men's Mush II Flip-Flop> (B0055ATVUU). The leather and textile construction, contoured EVA footbed for arch support, and rugged Durabrasion Rubber outsole seem like great features for my son's casual wear. I'll consider this option for its versatility and long-lasting quality. Thank you for the recommendation."
+        },
+        {
+            "role": "assistant",
+            "content": "The <Teva Men's Katavi 2> (B002KKCZLA) is a fantastic choice for your son's casual wear, offering a step up in style and durability compared to the <Teva Men's Mush II Flip-Flop> (B0055ATVUU). The leather and textile construction, contoured EVA footbed for arch support, and rugged Durabrasion Rubber outsole align perfectly with your preference for high-quality materials that provide comfort and durability. Your son will not only enjoy the sporty and versatile style but also benefit from the long-lasting quality and support these shoes offer. Investing in the Katavi 2 will ensure that your son stays comfortable and stylish while enjoying the durability needed for various occasions. It's a choice that ticks all the boxes for your requirements."
+        },
+        {
+            "role": "user",
+            "content": "I appreciate the details about the <Teva Men's Katavi 2> (B002KKCZLA). It sounds like a step up in style and durability compared to the <Teva Men's Mush II Flip-Flop> (B0055ATVUU). The leather and textile construction, contoured EVA footbed for arch support, and rugged Durabrasion Rubber outsole seem like great features for my son's casual wear. I'll consider this option for its versatility and long-lasting quality. Thank you for the recommendation."
+        }
+    ],
+    "sr": 0,
+    "at": 0,
+    "swr": 0,
+    "selected": [
+        "B0055ATVUU",
+        "B0055ATVUU"
+    ],
+    "candidates": [
+        "B002KKCZLA"
+    ],
+    "result": [
+        -1,
+        -1
+    ],
+    "thoughts": [
+        "The Seeker is looking for comfortable and stylish footwear for casual wear, considering their son's preferences as well. It would be beneficial to probe further into the specific preferences of both the Seeker and their son to provide more tailored recommendations.",
+        "The Seeker has provided detailed information about their preferences and their son's preferences for comfortable and stylish footwear. It would be beneficial to delve deeper into specific styles that the son prefers to offer more personalized recommendations.",
+        "The Seeker is looking for comfortable and stylish footwear for casual wear, with a preference for sporty and versatile styles. It seems like color preferences have been established. To further tailor recommendations, I should focus on exploring specific features and styles that align with both the Seeker's and their son's preferences.",
+        "The Seeker has provided detailed information about their preferences for comfortable and stylish footwear for casual wear, focusing on their son's liking for sporty and versatile styles. It would be beneficial to explore specific styles within the sporty and versatile category to provide more tailored recommendations.",
+        "Based on the current information, it seems that the Seeker's preferences for footwear have been well-detailed. It might be beneficial to move on to providing specific recommendations that align with their style and price range.",
+        "The Seeker has provided detailed preferences for comfortable and stylish footwear for casual wear, focusing on sporty and versatile styles for their son. It seems important to continue offering recommendations that align with these preferences while considering the color and fit preferences mentioned. It might be beneficial to explore more options within the 'Men' category for athletic shoes as per the Seeker's latest request.",
+        "The Seeker has provided detailed information about their and their son's preferences for comfortable and stylish footwear in sporty and versatile styles. It would be beneficial to further explore specific features or styles that the Seeker and their son prefer in footwear to provide more tailored recommendations.",
+        "The Seeker has provided detailed information about their preferences and their son's preferences for comfortable and stylish footwear. They prefer slip-on or velcro strap closures. It would be beneficial to suggest items that match these criteria.",
+        "The Seeker has provided detailed information about their preferences for slip-on or velcro strap closure footwear for casual wear, focusing on sporty and versatile styles for their son. They prefer neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. Comfort and durability are essential, and they have a specific price range in mind. The Seeker seems engaged and detail-oriented, emphasizing collaborative decision-making.",
+        "The Seeker has shown interest in a specific item, the Teva Men's Mush II Flip-Flop, and has compared it to the Teva Men's Katavi 2 for style and durability. The focus seems to be on finding a balance between comfort, style, and durability for their son's casual wear. It might be helpful to explore more options that offer similar features to the Katavi 2 while considering the Seeker's preferences for slip-on or velcro strap closures and color preferences."
+    ],
+    "profile update": [
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, considering their son's preferences.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, considering their son's preferences for sporty and versatile styles.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, considering their son's preferences for sporty and versatile styles. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, with a focus on sporty and versatile styles for their son. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, with a focus on sporty and versatile styles for their son. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer footwear made of high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability. Both Seeker and their son prefer regular fit shoes that are true to size.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, with a focus on sporty and versatile styles for their son. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer footwear made of high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability. Both Seeker and their son prefer regular fit shoes that are true to size.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Shoes",
+                "Athletic"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish footwear for casual wear, with a focus on sporty and versatile styles for their son. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer footwear made of high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability. Both Seeker and their son prefer regular fit shoes that are true to size.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Shoes",
+                "Athletic"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish slip-on or velcro strap closure footwear for casual wear, focusing on sporty and versatile styles for their son. Seeker prefers neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Shoes",
+                "Athletic"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": null
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish slip-on or velcro strap closure footwear for casual wear, focusing on sporty and versatile styles for their son. Preference for neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Shoes",
+                "Athletic",
+                "Sport Sandals & Slides"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": "B0055ATVUU"
+        },
+        {
+            "Preference": "Seeker is looking for comfortable and stylish slip-on or velcro strap closure footwear for casual wear, focusing on sporty and versatile styles for their son. Preference for neutral colors like black, grey, or navy, while their son likes bold colors like red, blue, or green. They prefer high-quality materials that provide a soft and cozy feel, emphasizing comfort and durability.",
+            "Category Path": [
+                "Clothing Shoes & Jewelry",
+                "Men",
+                "Shoes",
+                "Athletic",
+                "Sport Sandals & Slides"
+            ],
+            "Personality": "Engaging in a collaborative decision-making process, detail-oriented",
+            "Expected Price Range": [
+                24.28,
+                28.82
+            ],
+            "Selected Item ID": "B0055ATVUU"
+        }
+    ],
+    "actions": [
+        "Preference Probing",
+        "Preference Probing",
+        "Preference Probing",
+        "Preference Probing",
+        "Suggestion",
+        "Suggestion",
+        "Preference Probing",
+        "Suggestion",
+        "Persuasion",
+        "Persuasion"
+    ],
+    "persuasion strategies": [
+        "Framing",
+        "Logical Appeal"
+    ]
+}

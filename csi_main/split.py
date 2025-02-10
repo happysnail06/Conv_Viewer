@@ -2,13 +2,16 @@ import json
 import os
 
 # File name
-type = 'Passive'
+# type = 'Passive'
 # type = 'Active'
-# type = 'Less_Active'
+type = 'Less_Active'
+# type = 'Dependent'
+# type = 'Intuitive'
+# type = 'Rational'
 
 # model = 'chatcrs'
 model = 'CSI'
-input_filename = f"public/csi_main/raw/{model}_clothing_{type}_150_2025-02-09.json"
+input_filename = f"public/csi_main/raw/{model}_clothing_{type}_150_2025-02-10.json"
 
 # Extract the directory name correctly (remove full path and 'CSI_')
 filename_only = os.path.basename(input_filename)  # Get 'CSI_clothing_Active_150_2025-02-09.json'
